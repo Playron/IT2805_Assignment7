@@ -17,4 +17,5 @@ function addToList() {
             alert("Input already exists or input is empty");
         }
     }
+    console.log("bash");
 }
