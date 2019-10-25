@@ -5,13 +5,41 @@
     border-style: solid;
     text-align: center;
     font-size: 24px;
+    margin: 0 auto;
+    width: 75%;
 }
 
 #lista{
+    font-size: 16px;
     text-align: center;
+    margin: 0 auto;
+    width: 75%;
+    border : 1px;
+    border-style: solid;
 
+}
+
+#lista li{
+    padding: 1%;
 }
 
 #lista li:nth-child(odd){
     background: #a7a7a7;
+}
+
+#counter{
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 1%;
+}
+
+/* 
+Task 4 
+Checks if task-checkbocx is checked, and adds a line-through
+*/
+#lista input[type = checkbox]:checked + label{
+    text-decoration: line-through;
 }
