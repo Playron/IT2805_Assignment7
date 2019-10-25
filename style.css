@@ -9,25 +9,25 @@
     width: 75%;
 }
 
-#lista{
+#lista {
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
     width: 75%;
-    border : 1px;
+    border: 1px;
     border-style: solid;
 
 }
 
-#lista li{
+#lista li {
     padding: 1%;
 }
 
-#lista li:nth-child(odd){
+#lista li:nth-child(odd) {
     background: #a7a7a7;
 }
 
-#counter{
+#counter {
     text-align: center;
     border: 1px;
     border-style: solid;
@@ -40,6 +40,6 @@
 Task 4 
 Checks if task-checkbocx is checked, and adds a line-through
 */
-#lista input[type = checkbox]:checked + label{
+#lista input[type=checkbox]:checked+label {
     text-decoration: line-through;
 }
